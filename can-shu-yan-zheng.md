@@ -1,3 +1,5 @@
+> 与gin 的 binding功能类似。使用代码生成去掉了runtime反射，类型没有binding齐全，没有实现yaml，xml类型解析。
+
 ### xParams
 
 根据对路由声明的参数结构体，自动的把`queryString，urlencoded，application/json`类型的参数转换类型并且合并为结构体，并使用[https://gopkg.in/validator.v2验证结构体的字段合法性。](https://gopkg.in/validator.v2验证结构体的字段合法性。)
